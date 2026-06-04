@@ -9,7 +9,7 @@ const useGetConversations = () => {
 		const getConversations = async () => {
 			setLoading(true);
 			try {
-				const res = await fetch("https://vibechat-backend-c4lw.onrender.com");
+				const res = await fetch("https://vibechat-backend-c4lw.onrender.com/api/users");
 				const data = await res.json();
 				if (data.error) {
 					throw new Error(data.error);

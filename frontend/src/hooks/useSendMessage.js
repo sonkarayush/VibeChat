@@ -9,7 +9,7 @@ const useSendMessage = () => {
 	const sendMessage = async (message) => {
 		setLoading(true);
 		try {
-			const res = await fetch(`https://vibechat-backend-c4lw.onrender.com${selectedConversation._id}`, {
+			const res = await fetch(`https://vibechat-backend-c4lw.onrender.com/api/messages/send/${selectedConversation._id}`, {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",

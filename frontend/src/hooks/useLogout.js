@@ -9,7 +9,7 @@ const useLogout = () => {
 	const logout = async () => {
 		setLoading(true);
 		try {
-			const res = await fetch("https://vibechat-backend-c4lw.onrender.com", {
+			const res = await fetch("https://vibechat-backend-c4lw.onrender.com/api/auth/logout", {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
 			});

@@ -11,7 +11,7 @@ const useLogin = () => {
 		if (!success) return;
 		setLoading(true);
 		try {
-			const res = await fetch("https://vibechat-backend-c4lw.onrender.com", {
+			const res = await fetch("https://vibechat-backend-c4lw.onrender.com/api/auth/login", {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
 				body: JSON.stringify({ username, password }),
