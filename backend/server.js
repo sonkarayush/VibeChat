@@ -18,7 +18,7 @@ const __dirname = path.resolve();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: "https://vibe-chat-of6e.vercel.app",
+  origin: "https://vibe-chat-seven.vercel.app",
   credentials: true
 }));
 app.use(express.json()); // to parse the incoming requests with JSON payloads (from req.body)
