@@ -1,4 +1,5 @@
 # VibeChat 💬
+**Live Demo:** [Click here to view the app](https://vibe-chat-seven.vercel.app)
 
 A modern, real-time messaging application built with the MERN stack and Socket.io. 
 
