@@ -1,37 +1,14 @@
-# MERN Stack Project: Build and Deploy a Real Time Chat App | JWT, Socket.io
+# VibeChat 💬
 
-![Demo App](https://i.ibb.co/fXmZdnz/Screenshot-10.png)
+A modern, real-time messaging application built with the MERN stack and Socket.io. 
 
-[Video Tutorial on Youtube](https://youtu.be/HwCqsOis894)
+## Features
+* ⚡ **Real-Time Messaging:** Instant message delivery using Socket.io.
+* 🎨 **Modern UI/UX:** Frosted-glass aesthetic built with Tailwind CSS and DaisyUI.
+* 🔐 **Secure Auth:** JWT-based user authentication and authorization.
+* 🟢 **Live Status:** Real-time online/offline user indicators.
+* 🖼️ **Avatar Fallbacks:** Seamless, lag-free UI components for missing profile images.
 
-Some Features:
-
--   🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
--   🎃 Authentication && Authorization with JWT
--   👾 Real-time messaging with Socket.io
--   🚀 Online user status (Socket.io and React Context)
--   👌 Global state management with Zustand
--   🐞 Error handling both on the server and on the client
--   ⭐ At the end Deployment like a pro for FREE!
--   ⏳ And much more!
-
-### Setup .env file
-
-```js
-PORT=...
-MONGO_DB_URI=...
-JWT_SECRET=...
-NODE_ENV=...
-```
-
-### Build the app
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm start
-```
+## Tech Stack
+* **Frontend:** React, Vite, Tailwind CSS, Zustand
+* **Backend:** Node.js, Express, MongoDB, Socket.io
